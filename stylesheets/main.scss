@@ -20,7 +20,6 @@
 // 4. Layout-related sections
 @import
   'layout/header',
-  'layout/grid',
   'layout/footer',
   'layout/navbar';
 
@@ -30,8 +29,7 @@
 
 // 6. Page-specific styles
 @import
-  'pages/home',
-  'pages/artiste';
+  'pages/home';
 
 // 7. Themes
 @import

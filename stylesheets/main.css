@@ -897,8 +897,9 @@ figure {
       align-self: center;
   color: #ece7dd;
   position: relative;
-  width: 40%;
-  padding: 1rem 0 1rem 2rem;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  padding: 1rem 4rem 1rem 2rem;
   background: rgba(194, 100, 100, 0.726);
 }
 

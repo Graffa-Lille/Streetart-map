@@ -626,8 +626,10 @@ ul {
 .li_navbar {
   list-style-type: none;
   text-align: center;
-  font-size: 1.5em;
-  color: #8e635b;
+  font-family: "Molot", sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 2.5em;
+  color: #ECDBBA;
   padding: 1rem 0;
   margin: 0 0.5rem;
   background: -webkit-gradient(linear, left bottom, left top, from(#ECDBBA), color-stop(10%, #ECDBBA), color-stop(10.01%, transparent)) no-repeat top/0 100%;
@@ -642,10 +644,6 @@ ul {
 
 .li_navbar .navbar__links {
   text-decoration: none;
-  font-family: "Molot", sans-serif;
-  color: #ECDBBA;
-  font-size: 1.6em;
-  letter-spacing: 0.5px;
 }
 
 li:hover {
@@ -886,21 +884,20 @@ figure {
 }
 
 .parcours__article p {
-  margin: 1rem 0;
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-family: "Molot", sans-serif;
+  position: relative;
   -ms-grid-column-align: start;
       justify-self: start;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  font-family: "Molot", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
   color: #ece7dd;
-  position: relative;
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-  padding: 1rem 4rem 1rem 2rem;
+  margin: 1rem 0;
+  padding: 1rem 2rem 1rem 2rem;
   background: rgba(194, 100, 100, 0.726);
+  width: 40%;
 }
 
 .parcours__article-figure {

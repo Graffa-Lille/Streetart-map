@@ -130,18 +130,21 @@ figure {
     grid-row: 1 / 2;
   }
   p {
-    margin: 1rem 0;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-family: $font-molot;
+    position: relative;
     justify-self: start;
     align-self: center;
+    font-family: $font-molot;
+    font-size: 2rem;
+    text-transform: uppercase;
     color: #ece7dd;
-    position: relative;
-    flex-basis: 100%;
-    padding: 1rem 4rem 1rem 2rem;
+    margin: 1rem 0;
+    padding: 1rem 2rem 1rem 2rem;
     background: rgba(194, 100, 100, 0.726);
+    width: 40%;
   }
+}
+
+
 
   // p::before {
   //   content:"";
@@ -154,7 +157,7 @@ figure {
   //   height: 150%;
   //   border-radius: 0.2rem;
   // }
-}
+
 
 .parcours__article-figure {
   height: 25rem;

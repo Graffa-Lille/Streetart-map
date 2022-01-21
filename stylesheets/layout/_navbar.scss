@@ -15,8 +15,10 @@ nav {
   .li_navbar {
     list-style-type: none;
     text-align: center;
+    font-family: $font-molot;
+    letter-spacing: $molot-letter-spacing;
     font-size: $navbar-text-fontsize;
-    color: $navbar-footer-font-color;
+    color: $body-text-color;
     padding: $navbar-li-padding;
     margin: $navbar-li-margin;
     background: linear-gradient(to top, $body-text-color 0%, $body-text-color 10%, transparent 10.01%) no-repeat top  / 0 100%;
@@ -26,10 +28,8 @@ nav {
     }
     .navbar__links {
       text-decoration: none;
-      font-family: $font-molot;
-      color: $body-text-color;
-      font-size: 1.6em;
-      letter-spacing: $molot-letter-spacing;
+      // color: $body-text-color;
+      // font-size: 1.6em;
     }
   }
   li:hover{

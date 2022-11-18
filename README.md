@@ -2,4 +2,5 @@
 
 https://graffa-lille.github.io/Streetart-map/
 
-licence :CC-BY-NC
+First html-css project, team work.
+Was in charge of the home page
